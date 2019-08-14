@@ -35,7 +35,7 @@ namespace TrekantArealOmkreds
 
             //Beregning
 
-            omkreds = Math.Pow(a1, a1) * Math.Pow(b2, b2) * Math.Pow(c3, c3);
+            omkreds = a1 + b2 + c3;
 
             Console.Write("Omkredsen er {0}", omkreds);
 
